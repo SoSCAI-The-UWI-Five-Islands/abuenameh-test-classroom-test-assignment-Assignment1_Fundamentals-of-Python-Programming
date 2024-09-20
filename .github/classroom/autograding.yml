@@ -1,0 +1,21 @@
+tests:
+  - name: "Question 1 Test"
+    run: "python3 -m unittest Question1_Test.py"
+    timeout: 10
+    points: 30
+  - name: "Question 2 Test"
+    run: "python3 -m unittest Question2_test.py"
+    timeout: 10
+    points: 10
+   - name: "Question 3 Test"
+    run: "python3 -m unittest Test_Question3.py"
+    timeout: 10
+    points: 10
+  - name: "Question 4 Test"
+    run: "python3 -m unittest Test_Question4.py"
+    timeout: 10
+    points: 10
+  - name: "Question 5 Test"
+    run: "python3 -m unittest Test_Question5.py"
+    timeout: 10
+    points: 20
